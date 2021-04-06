@@ -262,4 +262,62 @@
 [2021-04-05 21:46:42,719] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
 [2021-04-05 21:46:42,719] DEBUG in root: ['http://localhost:5200', 'http://localhost:5201', 'http://localhost:5202']
 [2021-04-05 21:46:42,719] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
-                                                                  
+                                                                  [2021-04-06 14:54:54,562] DEBUG in root: Requests logging enabled
+[2021-04-06 14:55:46,689] DEBUG in root:  url : /followers/
+[2021-04-06 14:55:46,691] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-06 14:55:46,691] DEBUG in root: ['http://localhost:5100']
+[2021-04-06 14:55:46,691] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-06 14:55:47,942] DEBUG in root:  url : /posts/
+[2021-04-06 14:55:47,942] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-06 14:55:47,942] DEBUG in root: ['http://localhost:5200', 'http://localhost:5201', 'http://localhost:5202']
+[2021-04-06 14:55:47,942] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-06 15:30:38,530] DEBUG in root: Requests logging enabled
+[2021-04-06 15:31:39,871] DEBUG in root:  url : /
+[2021-04-06 15:31:39,872] DEBUG in root:  path: /
+[2021-04-06 15:32:03,238] DEBUG in root:  url : /
+[2021-04-06 15:32:03,238] DEBUG in root:  path: /
+[2021-04-06 15:32:19,061] DEBUG in root:  url : /
+[2021-04-06 15:32:19,062] DEBUG in root:  path: /
+[2021-04-06 15:32:32,210] DEBUG in root:  url : /users/
+[2021-04-06 15:32:32,211] DEBUG in root:  path: /users/
+[2021-04-06 15:32:32,211] DEBUG in root: ['http://localhost:5100']
+[2021-04-06 15:32:32,211] DEBUG in root: Upstream URL: http://localhost:5100/users/
+[2021-04-06 15:33:55,762] DEBUG in root:  url : /
+[2021-04-06 15:33:55,762] DEBUG in root:  path: /
+[2021-04-06 15:35:20,183] DEBUG in root: Requests logging enabled
+[2021-04-06 15:35:23,179] DEBUG in root: Requests logging enabled
+[2021-04-06 15:36:15,242] DEBUG in root: Requests logging enabled
+[2021-04-06 15:37:27,725] DEBUG in root: <Response [200]>
+[2021-04-06 15:37:42,864] DEBUG in root: <Response [200]>
+[2021-04-06 15:38:58,492] DEBUG in root: Requests logging enabled
+[2021-04-06 15:39:00,917] DEBUG in root: <Response [200]>
+[2021-04-06 15:39:00,918] DEBUG in root: {'resources': []}
+[2021-04-06 15:39:37,919] DEBUG in root: <Response [200]>
+[2021-04-06 15:39:37,921] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 15:41:24,740] DEBUG in root: Requests logging enabled
+[2021-04-06 15:41:32,386] DEBUG in root: <Response [200]>
+[2021-04-06 15:41:32,388] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 15:41:37,068] DEBUG in root: <Response [200]>
+[2021-04-06 15:41:37,070] DEBUG in root: {'resources': []}
+[2021-04-06 15:48:21,371] DEBUG in root: <Response [200]>
+[2021-04-06 15:48:21,377] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 15:48:21,969] DEBUG in root: <Response [200]>
+[2021-04-06 15:48:21,973] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:05:46,847] DEBUG in root: <Response [200]>
+[2021-04-06 16:05:46,849] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:06:03,908] DEBUG in root: Requests logging enabled
+[2021-04-06 16:06:06,819] DEBUG in root: <Response [200]>
+[2021-04-06 16:06:06,825] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:07:03,061] DEBUG in root: <Response [200]>
+[2021-04-06 16:07:03,063] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:07:29,946] DEBUG in root: Requests logging enabled
+[2021-04-06 16:08:17,947] DEBUG in root: Requests logging enabled
+[2021-04-06 16:30:33,138] DEBUG in root: <Response [200]>
+[2021-04-06 16:30:33,140] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:30:40,893] DEBUG in root: Requests logging enabled
+[2021-04-06 16:30:41,332] DEBUG in root: <Response [200]>
+[2021-04-06 16:30:41,334] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:32:06,226] DEBUG in root: Requests logging enabled
+[2021-04-06 16:32:08,909] DEBUG in root: <Response [200]>
+[2021-04-06 16:32:08,918] DEBUG in root: {'resources': [{'email': 'JohnLegend@csu.fullerton.edu', 'id': 1, 'pw': 'John*123', 'username': 'JohnLegend'}]}
+[2021-04-06 16:33:21,147] DEBUG in root: Requests logging enabled

@@ -10,9 +10,10 @@ import http.client
 import logging.config
 
 import bottle
-from bottle import route, request, response, get
+from bottle import route, request, response, get, auth_basic
 
 import requests
+from requests.auth import HTTPBasicAuth
 
 
 # Allow JSON values to be loaded from app.config[key]
@@ -71,8 +72,29 @@ if not sys.warnoptions:
     import warnings
     warnings.simplefilter('ignore', ResourceWarning)
 
+@get('/users/<username>/<password>/')
+def is_authenticated_user(username, password):
+    payload = {'username':username ,'pw':password }
+    r = requests.get('http://localhost:5100/users', params=payload)
+    logging.debug(r)
+
+    r_json = r.json()
+    logging.debug(r_json)
+    user_exist = r_json['resources']
+    if user_exist:
+        return f"{username} is authenticated"
+    else:
+        return f"{username} is not authenticated"
+
+
+@route('/')
+@auth_basic(is_authenticated_user)
+def home():
+    return ['yo, you are authenticated!']
+
 
 @route('<url:re:.*>', method='ANY')
+@auth_basic(is_authenticated_user)
 def gateway(url):
     path = request.urlparts._replace(scheme='', netloc='').geturl()
     logging.debug(f" url : {url}")
