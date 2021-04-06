@@ -1,0 +1,265 @@
+[2021-03-07 13:25:50,667] DEBUG in root: SELECT * FROM books
+[2021-03-07 15:33:54,084] DEBUG in root: {'username': 'John', 'email': 'john123@gmail.com', 'pw': 'john123@', 'id': 2}
+[2021-03-07 16:02:41,056] DEBUG in root: 0
+[2021-03-07 16:12:25,557] DEBUG in root: 0
+[2021-03-07 16:15:47,961] DEBUG in root: 0
+[2021-03-07 16:22:26,216] DEBUG in root: 0
+[2021-03-07 16:23:36,831] DEBUG in root: 0
+[2021-03-07 16:24:44,318] DEBUG in root: 0
+[2021-03-07 16:25:22,374] DEBUG in root: 0
+[2021-03-07 16:26:28,660] DEBUG in root: [{'id': 1, 'username': 'JohnLegend', 'email': 'JohnLegend@csu.fullerton.edu', 'pw': 'John*123'}]
+[2021-03-07 16:28:17,404] DEBUG in root: [{'id': 2, 'username': 'John', 'email': 'john123@gmail.com', 'pw': 'john123@'}]
+[2021-03-07 16:29:18,532] DEBUG in root: []
+[2021-03-07 16:29:18,532] DEBUG in root: {'username': 'Lucy', 'email': 'lucy456@gmail.com', 'pw': 'password123@', 'id': 3}
+[2021-03-07 16:29:25,460] DEBUG in root: [{'id': 3, 'username': 'Lucy', 'email': 'lucy456@gmail.com', 'pw': 'password123@'}]
+[2021-03-07 16:44:02,312] DEBUG in root: []
+[2021-03-07 16:44:17,734] DEBUG in root: []
+[2021-03-07 16:46:03,174] DEBUG in root: []
+[2021-03-07 16:46:07,986] DEBUG in root: []
+[2021-03-07 16:46:18,674] DEBUG in root: []
+[2021-03-07 16:46:18,674] DEBUG in root: {'username': 'Daniel', 'email': 'daniel@gmail.com', 'pw': 'JohnDaniel123@', 'id': 4}
+[2021-03-08 09:11:11,301] DEBUG in root: []
+[2021-03-08 09:11:20,451] DEBUG in root: []
+[2021-03-08 09:11:52,450] DEBUG in root: []
+[2021-03-08 11:40:44,126] DEBUG in root: []
+[2021-03-08 22:01:14,669] DEBUG in root: []
+[2021-03-08 22:01:29,335] DEBUG in root: []
+[2021-03-08 22:01:37,954] DEBUG in root: []
+[2021-03-08 22:03:00,085] DEBUG in root: {'pw': 'tompasswO*345'}
+[2021-03-08 22:03:00,087] DEBUG in root: [{'id': 6, 'username': 'TomVo', 'email': 'tomvo@gmail.com', 'pw': 'tompasswO*345'}]
+[2021-03-08 22:05:13,625] DEBUG in root: TomVo
+[2021-03-08 22:05:24,457] DEBUG in root: JohnLegend
+[2021-03-08 22:05:24,458] DEBUG in root: True
+[2021-03-08 22:05:24,458] DEBUG in root: [{'id': 1, 'username': 'JohnLegend', 'post': 'All of me', 'timestamp': '2021-03-09 05:57:51'}]
+[2021-03-08 22:07:30,949] DEBUG in root: JohnLegend
+[2021-03-08 22:07:30,949] DEBUG in root: True
+[2021-03-08 22:07:30,950] DEBUG in root: [{'id': 7, 'username': 'JohnLegend', 'post': 'Check out my new album!', 'timestamp': '2021-03-09 06:07:23'}, {'id': 1, 'username': 'JohnLegend', 'post': 'All of me', 'timestamp': '2021-03-09 05:57:51'}]
+[2021-03-29 15:36:35,301] DEBUG in root: Requests logging enabled
+[2021-03-29 15:36:43,185] DEBUG in root: Requests logging enabled
+[2021-03-29 15:37:15,653] DEBUG in root: Requests logging enabled
+[2021-04-03 15:16:09,290] DEBUG in root: Requests logging enabled
+[2021-04-03 15:26:20,707] DEBUG in root: Upstream URL: http://localhost:5200/users/JohnLegend/%20pw%3DJohn%2A123
+[2021-04-03 15:26:39,418] DEBUG in root: Upstream URL: http://localhost:5200/users/JohnLegend/
+[2021-04-03 15:28:35,882] DEBUG in root: Requests logging enabled
+[2021-04-03 15:28:42,923] DEBUG in root: Requests logging enabled
+[2021-04-03 15:28:52,840] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-03 15:33:21,704] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-03 15:34:28,930] DEBUG in root: Requests logging enabled
+[2021-04-03 15:35:00,715] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-03 15:35:53,416] DEBUG in root: Requests logging enabled
+[2021-04-03 15:35:56,434] DEBUG in root: Requests logging enabled
+[2021-04-03 15:36:22,104] DEBUG in root: Requests logging enabled
+[2021-04-03 15:36:32,155] DEBUG in root:  url : /users/JohnLegend/
+[2021-04-03 15:36:32,155] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-03 16:03:49,919] DEBUG in root: Requests logging enabled
+[2021-04-03 16:03:56,354] DEBUG in root: Requests logging enabled
+[2021-04-03 16:04:45,056] DEBUG in root: Requests logging enabled
+[2021-04-03 16:04:46,196] DEBUG in root:  url : /users/JohnLegend/
+[2021-04-03 16:04:46,197] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-04 14:10:22,649] DEBUG in root: Requests logging enabled
+[2021-04-04 14:11:59,438] DEBUG in root: Requests logging enabled
+[2021-04-04 14:16:13,947] DEBUG in root:  url : /users/JohnLegend/
+[2021-04-04 14:16:13,948] DEBUG in root: Upstream URL: http://localhost:5100/users/JohnLegend/
+[2021-04-04 14:18:46,856] DEBUG in root: Requests logging enabled
+[2021-04-04 14:27:14,280] DEBUG in root:  url : /users/
+[2021-04-04 14:27:14,282] DEBUG in root: Upstream URL: http://localhost:5100/users/?username=JohnLegend&pw=John*123
+[2021-04-04 14:36:42,520] DEBUG in root:  url : /users/
+[2021-04-04 14:36:42,521] DEBUG in root: Upstream URL: http://localhost:5100/users/
+[2021-04-04 14:40:36,209] DEBUG in root:  url : /timelines/
+[2021-04-04 14:40:36,210] DEBUG in root: Upstream URL: http://localhost:5100/timelines/?username=JohnLegend&sort=-timestamp
+[2021-04-04 14:46:42,299] DEBUG in root:  url : /posts/
+[2021-04-04 14:46:42,301] DEBUG in root: Upstream URL: http://localhost:5100/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 14:48:02,752] DEBUG in root: Requests logging enabled
+[2021-04-04 14:48:14,137] DEBUG in root:  url : /posts/
+[2021-04-04 14:48:14,137] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:12:40,419] DEBUG in root: Requests logging enabled
+[2021-04-04 15:13:14,562] DEBUG in root:  url : /users/
+[2021-04-04 15:13:14,562] DEBUG in root:  path: /users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:13:14,562] DEBUG in root: Upstream URL: http://localhost:5100/users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:14:45,375] DEBUG in root:  url : /posts/
+[2021-04-04 15:14:45,375] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:14:45,375] DEBUG in root: Upstream URL: http://localhost:5100/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:14:57,162] DEBUG in root: Requests logging enabled
+[2021-04-04 15:15:00,277] DEBUG in root:  url : /posts/
+[2021-04-04 15:15:00,277] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:15:00,277] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:24:41,393] DEBUG in root: Requests logging enabled
+[2021-04-04 15:24:53,043] DEBUG in root:  url : /posts/
+[2021-04-04 15:24:53,044] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:24:53,044] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:25:16,915] DEBUG in root:  url : /users/
+[2021-04-04 15:25:16,915] DEBUG in root:  path: /users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:25:16,915] DEBUG in root: Upstream URL: http://localhost:5100/users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:28:35,728] DEBUG in root: Requests logging enabled
+[2021-04-04 15:30:21,699] DEBUG in root: Requests logging enabled
+[2021-04-04 15:30:44,604] DEBUG in root:  url : /users/
+[2021-04-04 15:30:44,604] DEBUG in root:  path: /users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:30:44,604] DEBUG in root: Upstream URL: http://localhost:5100/users/?username=JohnLegend&pw=John*123
+[2021-04-04 15:30:53,510] DEBUG in root:  url : /posts/
+[2021-04-04 15:30:53,511] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:30:53,511] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 15:31:28,763] DEBUG in root: Requests logging enabled
+[2021-04-04 15:51:24,527] DEBUG in root: Requests logging enabled
+[2021-04-04 15:54:08,525] DEBUG in root:  url : /users/
+[2021-04-04 15:54:08,526] DEBUG in root:  path: /users/
+[2021-04-04 15:54:08,526] DEBUG in root: Upstream URL: http://localhost:5100/users/
+[2021-04-04 15:54:32,799] DEBUG in root:  url : /users/
+[2021-04-04 15:54:32,799] DEBUG in root:  path: /users/
+[2021-04-04 15:54:32,799] DEBUG in root: Upstream URL: http://localhost:5100/users/
+[2021-04-04 16:04:38,489] DEBUG in root:  url : /users/
+[2021-04-04 16:04:38,490] DEBUG in root:  path: /users/?username=JohnLegend&pw=John*123
+[2021-04-04 16:04:38,490] DEBUG in root: Upstream URL: http://localhost:5100/users/?username=JohnLegend&pw=John*123
+[2021-04-04 16:07:19,454] DEBUG in root:  url : /users/TaylorSwift/JohnLegend/
+[2021-04-04 16:07:19,454] DEBUG in root:  path: /users/TaylorSwift/JohnLegend/
+[2021-04-04 16:08:35,375] DEBUG in root:  url : /followers/
+[2021-04-04 16:08:35,375] DEBUG in root:  path: /followers/
+[2021-04-04 16:15:35,113] DEBUG in root:  url : /followers/
+[2021-04-04 16:15:35,119] DEBUG in root:  path: /followers/
+[2021-04-04 16:17:30,282] DEBUG in root:  url : /followers/
+[2021-04-04 16:17:30,282] DEBUG in root:  path: /followers/
+[2021-04-04 16:17:46,867] DEBUG in root: Requests logging enabled
+[2021-04-04 16:17:49,516] DEBUG in root:  url : /followers/
+[2021-04-04 16:17:49,517] DEBUG in root:  path: /followers/
+[2021-04-04 16:17:49,519] DEBUG in root: Upstream URL: http://localhost:5100/followers/
+[2021-04-04 16:19:25,590] DEBUG in root:  url : /followers/username=TaylorSwift
+[2021-04-04 16:19:25,590] DEBUG in root:  path: /followers/username%3DTaylorSwift
+[2021-04-04 16:20:02,100] DEBUG in root:  url : /followers/
+[2021-04-04 16:20:02,100] DEBUG in root:  path: /followers/
+[2021-04-04 16:20:02,100] DEBUG in root: Upstream URL: http://localhost:5100/followers/
+[2021-04-04 16:23:27,320] DEBUG in root:  url : /followers/
+[2021-04-04 16:23:27,321] DEBUG in root:  path: /followers/
+[2021-04-04 16:23:27,321] DEBUG in root: Upstream URL: http://localhost:5100/followers/
+[2021-04-04 16:27:15,554] DEBUG in root:  url : /followers/
+[2021-04-04 16:27:15,555] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:27:15,555] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:27:44,552] DEBUG in root:  url : /followers/
+[2021-04-04 16:27:44,552] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:27:44,552] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:27:55,245] DEBUG in root:  url : /followers/null
+[2021-04-04 16:27:55,245] DEBUG in root:  path: /followers/null
+[2021-04-04 16:31:14,762] DEBUG in root:  url : /followers/
+[2021-04-04 16:31:14,762] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:31:14,762] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToRemove=TaylorSwift
+[2021-04-04 16:31:55,832] DEBUG in root:  url : /followers/
+[2021-04-04 16:31:55,832] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:31:55,833] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:32:36,888] DEBUG in root:  url : /followers/
+[2021-04-04 16:32:36,888] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:32:36,888] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:32:43,293] DEBUG in root:  url : /followers/1
+[2021-04-04 16:32:43,293] DEBUG in root:  path: /followers/1
+[2021-04-04 16:36:15,963] DEBUG in root:  url : /followers/id
+[2021-04-04 16:36:15,964] DEBUG in root:  path: /followers/id
+[2021-04-04 16:40:07,126] DEBUG in root:  url : /followers/
+[2021-04-04 16:40:07,126] DEBUG in root:  path: /followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:40:07,126] DEBUG in root: Upstream URL: http://localhost:5100/followers/?username=JohnLegend&usernameToFollow=TaylorSwift
+[2021-04-04 16:41:04,082] DEBUG in root:  url : /posts/
+[2021-04-04 16:41:04,082] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 16:41:04,082] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+[2021-04-04 16:42:41,219] DEBUG in root:  url : /posts/
+[2021-04-04 16:42:41,219] DEBUG in root:  path: /posts/?sort=-timestamp
+[2021-04-04 16:42:41,220] DEBUG in root: Upstream URL: http://localhost:5200/posts/?sort=-timestamp
+[2021-04-04 16:43:28,388] DEBUG in root:  url : /posts/
+[2021-04-04 16:43:28,388] DEBUG in root:  path: /posts/
+[2021-04-04 16:43:28,389] DEBUG in root: Upstream URL: http://localhost:5200/posts/
+[2021-04-04 16:43:49,841] DEBUG in root:  url : /posts/
+[2021-04-04 16:43:49,841] DEBUG in root:  path: /posts/
+[2021-04-04 16:43:49,841] DEBUG in root: Upstream URL: http://localhost:5200/posts/
+[2021-04-04 16:45:15,995] DEBUG in root:  url : /users/following.json
+[2021-04-04 16:45:15,995] DEBUG in root:  path: /users/following.json?_facet=username&username=JohnLegend&_shape=array
+[2021-04-04 16:51:22,104] DEBUG in root: Requests logging enabled
+[2021-04-04 16:52:59,301] DEBUG in root: Requests logging enabled
+[2021-04-04 16:53:13,310] DEBUG in root: Requests logging enabled
+[2021-04-04 17:01:08,831] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:02,823] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:05,366] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:06,899] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:08,807] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:10,793] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:12,806] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:14,814] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:16,826] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:18,845] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:21,208] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:22,989] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:24,842] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:26,836] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:28,838] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:30,857] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:32,858] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:34,860] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:36,863] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:38,890] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:40,892] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:43,114] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:44,888] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:56,017] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:57,908] DEBUG in root: Requests logging enabled
+[2021-04-05 21:12:59,419] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:01,394] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:03,401] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:05,417] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:07,409] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:09,435] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:11,441] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:13,559] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:15,441] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:17,484] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:19,514] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:21,480] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:23,450] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:25,479] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:27,492] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:29,541] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:31,473] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:33,486] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:35,563] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:37,639] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:39,500] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:41,493] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:43,502] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:45,525] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:47,657] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:49,573] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:51,605] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:53,537] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:55,543] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:57,560] DEBUG in root: Requests logging enabled
+[2021-04-05 21:13:59,855] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:01,554] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:03,663] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:05,559] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:07,615] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:09,768] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:11,849] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:13,621] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:15,628] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:17,618] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:19,625] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:21,656] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:23,702] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:25,624] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:27,641] DEBUG in root: Requests logging enabled
+[2021-04-05 21:14:59,577] DEBUG in root: Requests logging enabled
+[2021-04-05 21:16:37,384] DEBUG in root:  url : /users/JohnLegend
+[2021-04-05 21:16:37,385] DEBUG in root:  path: /users/JohnLegend
+[2021-04-05 21:19:23,049] DEBUG in root:  url : /home/JohnLegend/
+[2021-04-05 21:19:23,049] DEBUG in root:  path: /home/JohnLegend/
+[2021-04-05 21:20:14,470] DEBUG in root: Requests logging enabled
+[2021-04-05 21:20:24,477] DEBUG in root: <Response [404]>
+[2021-04-05 21:22:35,707] DEBUG in root: Requests logging enabled
+[2021-04-05 21:22:39,586] DEBUG in root: <Response [404]>
+[2021-04-05 21:36:42,791] DEBUG in root: Requests logging enabled
+[2021-04-05 21:37:55,845] DEBUG in root: Requests logging enabled
+[2021-04-05 21:38:33,824] DEBUG in root: Requests logging enabled
+[2021-04-05 21:43:25,947] DEBUG in root: Requests logging enabled
+[2021-04-05 21:43:59,550] DEBUG in root: Requests logging enabled
+[2021-04-05 21:45:35,208] DEBUG in root:  url : /posts/
+[2021-04-05 21:45:35,208] DEBUG in root:  path: /posts/?username=ProfAvery&sort=-timestamp
+[2021-04-05 21:45:35,208] DEBUG in root: ['http://localhost:5200', 'http://localhost:5201', 'http://localhost:5202']
+[2021-04-05 21:45:35,208] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=ProfAvery&sort=-timestamp
+[2021-04-05 21:46:42,719] DEBUG in root:  url : /posts/
+[2021-04-05 21:46:42,719] DEBUG in root:  path: /posts/?username=JohnLegend&sort=-timestamp
+[2021-04-05 21:46:42,719] DEBUG in root: ['http://localhost:5200', 'http://localhost:5201', 'http://localhost:5202']
+[2021-04-05 21:46:42,719] DEBUG in root: Upstream URL: http://localhost:5200/posts/?username=JohnLegend&sort=-timestamp
+                                                                  

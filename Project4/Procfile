@@ -1,0 +1,6 @@
+gateway: python3 -m bottle --bind=localhost:$PORT --debug --reload gateway
+users: sandman2ctl -p $PORT sqlite+pysqlite:///var/users.db
+# users: python3 -m bottle --bind=localhost:$PORT --debug --reload users
+timelines: sandman2ctl -p $PORT sqlite+pysqlite:///var/timelines.db
+user-queries: datasette -p $PORT --reload var/users.db
+timeline-queries: datasette -p $PORT --reload var/timelines.db
